@@ -1,7 +1,6 @@
-import React, { useRef, useEffect } from "react";
-import ReactDOM from "react-dom";
+import { useRef, useEffect } from "react";
 
-const useClick = (onClick) => {
+export const useClick = (onClick) => {
   if(typeof onClick !== "function"){
     return;
   }
